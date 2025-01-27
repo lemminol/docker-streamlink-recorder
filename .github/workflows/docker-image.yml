@@ -32,7 +32,7 @@ jobs:
           images: lauwarm/streamlink-recorder
           
       - name: Build and push Docker image
-        uses: docker/build-push-action@94f8f8c2eec4bc3f1d78c1755580779804cb87b2
+        uses: docker/build-push-action@ca877d9245402d1537745e0e356eab47c3520991
         with:
           context: .
           push: true
@@ -67,7 +67,7 @@ jobs:
           images: lauwarm/streamlink-recorder
           
       - name: Build and push Docker image
-        uses: docker/build-push-action@94f8f8c2eec4bc3f1d78c1755580779804cb87b2
+        uses: docker/build-push-action@ca877d9245402d1537745e0e356eab47c3520991
         with:
           context: .
           push: true
